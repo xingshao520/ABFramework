@@ -10,8 +10,11 @@
 		1F153B2A2248EBB0006EF2C1 /* ABFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F153B202248EBB0006EF2C1 /* ABFramework.framework */; };
 		1F153B2F2248EBB0006EF2C1 /* ABFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F153B2E2248EBB0006EF2C1 /* ABFrameworkTests.m */; };
 		1F153B312248EBB0006EF2C1 /* ABFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F153B232248EBB0006EF2C1 /* ABFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F153B3C2248ED2F006EF2C1 /* SayHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F153B3A2248ED2F006EF2C1 /* SayHello.h */; };
+		1F153B3C2248ED2F006EF2C1 /* SayHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F153B3A2248ED2F006EF2C1 /* SayHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F153B3D2248ED2F006EF2C1 /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F153B3B2248ED2F006EF2C1 /* SayHello.m */; };
+		9828F796224E1D6400C03495 /* RewardBasedVideoAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9828F795224E1D6400C03495 /* RewardBasedVideoAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9828F798224E1D6700C03495 /* RewardBasedVideoAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9828F797224E1D6700C03495 /* RewardBasedVideoAdManager.m */; };
+		9F931D9A53887A902403F524 /* Pods_ABFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2CD8665D6C7E3F0ECE88D /* Pods_ABFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,11 @@
 		1F153B302248EBB0006EF2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F153B3A2248ED2F006EF2C1 /* SayHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
 		1F153B3B2248ED2F006EF2C1 /* SayHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHello.m; sourceTree = "<group>"; };
+		3A62C1D856FAB4F9926FF3FE /* Pods-ABFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFramework.debug.xcconfig"; path = "Target Support Files/Pods-ABFramework/Pods-ABFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		7CB434F5253FD14545322289 /* Pods-ABFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABFramework.release.xcconfig"; path = "Target Support Files/Pods-ABFramework/Pods-ABFramework.release.xcconfig"; sourceTree = "<group>"; };
+		84B2CD8665D6C7E3F0ECE88D /* Pods_ABFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9828F795224E1D6400C03495 /* RewardBasedVideoAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardBasedVideoAdManager.h; sourceTree = "<group>"; };
+		9828F797224E1D6700C03495 /* RewardBasedVideoAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardBasedVideoAdManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F931D9A53887A902403F524 /* Pods_ABFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 				1F153B222248EBB0006EF2C1 /* ABFramework */,
 				1F153B2D2248EBB0006EF2C1 /* ABFrameworkTests */,
 				1F153B212248EBB0006EF2C1 /* Products */,
+				F09CDC8B5D2441224A2A673E /* Pods */,
+				D14A0A8BFB4D1EECDD5A8037 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +89,8 @@
 				1F153B232248EBB0006EF2C1 /* ABFramework.h */,
 				1F153B3A2248ED2F006EF2C1 /* SayHello.h */,
 				1F153B3B2248ED2F006EF2C1 /* SayHello.m */,
+				9828F795224E1D6400C03495 /* RewardBasedVideoAdManager.h */,
+				9828F797224E1D6700C03495 /* RewardBasedVideoAdManager.m */,
 				1F153B242248EBB0006EF2C1 /* Info.plist */,
 			);
 			path = ABFramework;
@@ -92,6 +105,23 @@
 			path = ABFrameworkTests;
 			sourceTree = "<group>";
 		};
+		D14A0A8BFB4D1EECDD5A8037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B2CD8665D6C7E3F0ECE88D /* Pods_ABFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F09CDC8B5D2441224A2A673E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A62C1D856FAB4F9926FF3FE /* Pods-ABFramework.debug.xcconfig */,
+				7CB434F5253FD14545322289 /* Pods-ABFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -101,6 +131,7 @@
 			files = (
 				1F153B312248EBB0006EF2C1 /* ABFramework.h in Headers */,
 				1F153B3C2248ED2F006EF2C1 /* SayHello.h in Headers */,
+				9828F796224E1D6400C03495 /* RewardBasedVideoAdManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F153B342248EBB0006EF2C1 /* Build configuration list for PBXNativeTarget "ABFramework" */;
 			buildPhases = (
+				8EE7AEE4E7793C5A3293E793 /* [CP] Check Pods Manifest.lock */,
 				1F153B1B2248EBB0006EF2C1 /* Headers */,
 				1F153B1C2248EBB0006EF2C1 /* Sources */,
 				1F153B1D2248EBB0006EF2C1 /* Frameworks */,
@@ -195,12 +227,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EE7AEE4E7793C5A3293E793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F153B1C2248EBB0006EF2C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F153B3D2248ED2F006EF2C1 /* SayHello.m in Sources */,
+				9828F798224E1D6700C03495 /* RewardBasedVideoAdManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +401,7 @@
 		};
 		1F153B352248EBB0006EF2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A62C1D856FAB4F9926FF3FE /* Pods-ABFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -367,6 +426,7 @@
 		};
 		1F153B362248EBB0006EF2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB434F5253FD14545322289 /* Pods-ABFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
