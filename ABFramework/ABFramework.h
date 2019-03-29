@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char ABFrameworkVersionString[];
 
 
 #import "SayHello.h"
+#import "RewardBasedVideoAdManager.h"
